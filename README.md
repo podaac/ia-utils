@@ -1,2 +1,2 @@
-# ia-dev-tools
-Some tools to help with Ingest and Archiving
+# ia-utils
+Tools to help with Ingest and Archiving
