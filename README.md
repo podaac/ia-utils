@@ -1,2 +1,2 @@
 # ia-utils
-Tools to help with Ingest and Archiving
+Tools to help with Ingest and Archive
