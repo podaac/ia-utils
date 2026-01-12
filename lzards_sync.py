@@ -52,12 +52,12 @@ Example backup request, recreated from LZARDS uat backup status:
 -----------------------------------------------------------------------------------
 {
     'provider': 'pocloud_sit',
-    'objectUrl': 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/JASON_CS_S6A_L0_STR/S6A_ST_0__STR_____20201214T210315_20201214T225901_20201214T225946_6945_003_087_044_EUM__OPE_NR____.SEN6.ISPData.dat<EXTRA_METADATA>',
+    'objectUrl': 'https://<example-bucket>.s3.us-west-2.amazonaws.com/<DATA-TYPE>/<GRANULE_ID>____.SEN6.ISPData.dat<EXTRA_METADATA>',
     'expectedMd5Hash': 'b47447d2e9fefb8959ed7c45bfc8a8e9',
     'metadata': {
-        'filename': 's3://podaac-sit-cumulus-protected/JASON_CS_S6A_L0_STR/S6A_ST_0__STR_____20201214T210315_20201214T225901_20201214T225946_6945_003_087_044_EUM__OPE_NR____.SEN6.ISPData.dat',
-        'granuleId': 'S6A_ST_0__STR_____20201214T210315_20201214T225901_20201214T225946_6945_003_087_044_EUM__OPE_NR____.SEN6',
-        'collection': 'JASON_CS_S6A_L0_STR___F'
+        'filename': 's3://<example-bucket>/<DATA-TYPE>/<GRANULE_ID>____.SEN6.ISPData.dat',
+        'granuleId': '<GRANULE_ID>____.SEN6',
+        'collection': '<COLLECTION_ID>___F'
     }
 }
 -----------------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+[project]
+name = "ia-utils"
+version = "1.0.0"
+dependencies = [
+    "click==8.1.3",
+    "requests==2.31.0",
+    "boto3",
+    "token-dispenser-client @ git+https://github.com/podaac/token-dispenser-client-lib.git@Release-0.1.1"
+]
+
+[project.scripts]
+cumulus-deletion-tool = "cumulus_deletion_tool:main"
+cmr-deletion-tool = "cmr_deletion_tool:main"
